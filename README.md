@@ -2,7 +2,7 @@
   <img src="./banner.jpg" alt="Nipcode. search. decide. install." />
 </p>
 
-# Building [Nipcode](https://nipcode.xyz)
+# Building [Nipcode](https://nipcode.xyz) · v1.0.0 live
 
 Package search and trust layer for humans and AI agents. Evidence, risk and install boundary before any code touches your workspace.
 
@@ -10,11 +10,12 @@ Package search and trust layer for humans and AI agents. Evidence, risk and inst
 
 ## What is live
 
+- **Nipcode Sense.** Our in-house ranking and decision model. Judges trust signals, surfaces risk, answers conversationally. Live at [nipcode.xyz/account](https://nipcode.xyz/account) and `POST /api/chat`.
 - **7 sources.** npm, PyPI, crates.io, GitHub, Hugging Face, Docker Hub, MCP servers.
-- **4 endpoints.** `/api/search`, `/api/decision`, `/api/inspect`, `/api/install-plan`.
+- **5 endpoints.** `/api/chat`, `/api/search`, `/api/decision`, `/api/inspect`, `/api/install-plan`.
 - **OTP and OAuth.** Email, Google, GitHub, Phantom (Solana SIWS).
 - **Project namespaces.** Up to 25 API keys per account, grouped by project.
-- **Rate limit.** 60 requests per minute per key.
+- **Rate limit.** 60 req/min for read endpoints, 30 req/min for `/api/chat`.
 - **Public docs.** [nipcode.xyz/docs](https://nipcode.xyz/docs).
 - **Open changelog.** [nipcode.xyz/changelog](https://nipcode.xyz/changelog).
 
